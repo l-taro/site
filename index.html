@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="color-blue-dark" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&amp;display=swap">
+    <!--style-->
+    <link rel="stylesheet" href="css/style_0002.css">
+    <link rel="stylesheet" href="css/style_0001.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--scripts-->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </head>
+  <body>
+    <div class="multiselect_form color-block">
+      <div class="center flex-block"><span class="close-multiselect">&times;</span><span>Подобрать запчасть</span>
+        <form action=""> 
+          <select id="brand" name="brand"> 
+            <option selected>Марка</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+          <select id="model" name="model"> 
+            <option selected>Модель</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+          <select id="modification" name="modification"> 
+            <option selected>Модификация</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3 </option>
+          </select>
+          <button class="button_big">Перейти</button>
+        </form>
+      </div>
+    </div>
+    <div class="header-screen">    
+      <div class="center flex-block">
+        <div class="header__logo_image"><a href="#"><img src="img/logo.png" title="logo"></a></div>
+        <div class="header-content">
+          <div class="header__contacts flex-block">
+            <div class="show-mobile-phone"></div>
+            <div class="phones">
+              <div class="close-mobile-phone">&times;</div><a href="tel:+79201236578">+7 920  123  65 78</a><a href="tel:+79201236578">+7 920  123  65 78</a>
+            </div>
+            <div class="socials"><a class="wa" href="#!">
+                <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <use x="0" y="0" xlink:href="#wa_line"></use>
+                </svg></a><a class="viber" href="#!">
+                <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <use x="0" y="0" xlink:href="#viber_line"></use>
+                </svg></a><a class="tg" href="#!">
+                <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <use x="0" y="0" xlink:href="#telegram_line"></use>
+                </svg></a></div>
+          </div>
+          <div class="header_search flex-block">
+            <div class="show-mobile-search"></div>
+            <form class="header_search_form">
+              <input type="text" placeholder="Введите название запчасти">
+              <button class="search_button"></button>
+            </form><a class="header_cart color-block" href="#"><b>Корзина</b><span>3</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_screen">
+      <div class="center flex-block">
+        <div class="main_screen__text">
+          <h1>Качественные б/у запчасти <span>для грузовых и легковых автомобилей</span></h1>
+          <h2>Более <span class="color-light">500 000 наименований</span> на складе</h2>
+          <div class="main_screen__buttons flex-block"><a class="wa_button" href="#"><b></b><span>Написать в Whatsapp</span></a><a class="catalog_button" href="#"><b></b><span>Перейти в каталог </span></a>
+          </div>
+        </div>
+        <div class="main_screen__form">
+          <form action="#"> 
+            <p>Оформить заявку</p>
+            <div class="form-item">
+              <label>Номер телефона  *</label>
+              <input type="text"/>
+            </div>
+            <div class="form-item">
+              <label>VIN автомобиля *</label>
+              <input type="text"/>
+            </div>
+            <div class="form-item">
+              <label>Какие запчасти нужны  *</label>
+              <textarea placeholder="MAN TGA 24.480 2007 год фильтр воздушный, фильтр топливный, колодки тормозные передние"></textarea>
+            </div>
+            <div class="form-item">
+              <label class="checkbox-label">
+                <input type="checkbox"/><span>Согласие на обработку персональных данных</span>
+              </label>
+            </div>
+            <div class="button-container">
+              <button class="button_big">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="slider__section">
+      <div class="center">
+        <div class="slider__wrapper">
+          <div class="slider__content" id="slider-main">
+                <div class="slider__item flex-block">
+                  <div class="slider__item__img"><img src="img/slider_01.jpg"></div>
+                  <div class="slider__item__text">
+                    <div class="slider-title color-text">Авторазбор грузовых автомобилей</div>
+                    <p>Собственный склад запчастей с разобранных автомобилей. Всегда в наличии детали для БМВ, Тойота и других марок автомобилей</p>
+                    <button class="button_big">Оставить запрос</button>
+                  </div>
+                </div>
+                <div class="slider__item flex-block">
+                  <div class="slider__item__img"><img src="img/slider_02.jpg"></div>
+                  <div class="slider__item__text">
+                    <div class="slider-title color-text">Авторазбор грузовых автомобилей</div>
+                    <p>Собственный склад запчастей с разобранных автомобилей. Всегда в наличии детали для БМВ, Тойота и других марок автомобилей</p>
+                    <button class="button_big">Оставить запрос</button>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="profits__block light-block">
+      <div class="center">
+        <h3>Почему водители выбирают нас ?</h3>
+        <div class="subtitle">Мы предлагаем широкий выбор оригинальных автозапчастей для грузовых иномарок.</div>
+        <div class="profits__content flex-block">
+              <div class="profits__item">
+                <div class="profits__item__blank" style="--i:1;"></div>
+                <div class="profits__item__hover color-block pic_01">
+                  <p>Запчасти находятся на складе в черте города и доставляются клиенту в кратчайшие сроки</p>
+                </div>
+                <div class="profits__item__content pic_01"><span></span>
+                  <p>Все запчасти <b class="color-text">в наличии</b></p>
+                  <div><b class="color-block">1</b></div>
+                </div>
+              </div>
+              <div class="profits__item">
+                <div class="profits__item__blank" style="--i:2;"></div>
+                <div class="profits__item__hover color-block pic_02">
+                  <p>Запчасти находятся на складе в черте города и доставляются клиенту в кратчайшие сроки</p>
+                </div>
+                <div class="profits__item__content pic_02"><span></span>
+                  <p>Доставка <b class="color-text">по СНГ и России</b></p>
+                  <div><b class="color-block">2</b></div>
+                </div>
+              </div>
+              <div class="profits__item">
+                <div class="profits__item__blank" style="--i:3;"></div>
+                <div class="profits__item__hover color-block pic_03">
+                  <p>Запчасти находятся на складе в черте города и доставляются клиенту в кратчайшие сроки</p>
+                </div>
+                <div class="profits__item__content pic_03"><span></span>
+                  <p>Опыт работы <b class="color-text">15 лет</b></p>
+                  <div><b class="color-block">3</b></div>
+                </div>
+              </div>
+              <div class="profits__item">
+                <div class="profits__item__blank" style="--i:4;"></div>
+                <div class="profits__item__hover color-block pic_04">
+                  <p>Запчасти находятся на складе в черте города и доставляются клиенту в кратчайшие сроки</p>
+                </div>
+                <div class="profits__item__content pic_04"><span></span>
+                  <p>Модельные ряды <b class="color-text">с 1990 по 2015</b></p>
+                  <div><b class="color-block">4</b></div>
+                </div>
+              </div>
+              <div class="profits__item">
+                <div class="profits__item__blank" style="--i:5;"></div>
+                <div class="profits__item__hover color-block pic_05">
+                  <p>Запчасти находятся на складе в черте города и доставляются клиенту в кратчайшие сроки</p>
+                </div>
+                <div class="profits__item__content pic_05"><span></span>
+                  <p>Гарантия на проверку<b class="color-text">14 дней</b></p>
+                  <div><b class="color-block">5</b></div>
+                </div>
+              </div>
+              <div class="profits__item">
+                <div class="profits__item__blank" style="--i:6;"></div>
+                <div class="profits__item__hover color-block pic_06">
+                  <p>Запчасти находятся на складе в черте города и доставляются клиенту в кратчайшие сроки</p>
+                </div>
+                <div class="profits__item__content pic_06"><span></span>
+                  <p>Запчасти<b class="color-text">по лучшей цене</b></p>
+                  <div><b class="color-block">6</b></div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="svg-images">
+      <svg class="phone_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path id="phone_line" d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z" fill="none" stroke-miterlimit="10" stroke-width="32"></path>
+      </svg>
+      <svg class="car_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="car_line">
+          <path d="M469.71 234.6c-7.33-9.73-34.56-16.43-46.08-33.94s-20.95-55.43-50.27-70S288 112 256 112s-88 4-117.36 18.63-38.75 52.52-50.27 70-38.75 24.24-46.08 33.97S29.8 305.84 32.94 336s9 48 9 48h86c14.08 0 18.66-5.29 47.46-8 31.6-3 62.6-4 80.6-4s50 1 81.58 4c28.8 2.73 33.53 8 47.46 8h85s5.86-17.84 9-48-2.04-91.67-9.33-101.4zM400 384h56v16h-56zM56 384h56v16H56z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+          <path d="M364.47 309.16c-5.91-6.83-25.17-12.53-50.67-16.35S279 288 256.2 288s-33.17 1.64-57.61 4.81-42.79 8.81-50.66 16.35C136.12 320.6 153.42 333.44 167 335c13.16 1.5 39.47.95 89.31.95s76.15.55 89.31-.95c13.56-1.65 29.62-13.6 18.85-25.84zM431.57 243.05a3.23 3.23 0 00-3.1-3c-11.81-.42-23.8.42-45.07 6.69a93.88 93.88 0 00-30.08 15.06c-2.28 1.78-1.47 6.59 1.39 7.1a455.32 455.32 0 0052.82 3.1c10.59 0 21.52-3 23.55-12.44a52.41 52.41 0 00.49-16.51zM80.43 243.05a3.23 3.23 0 013.1-3c11.81-.42 23.8.42 45.07 6.69a93.88 93.88 0 0130.08 15.06c2.28 1.78 1.47 6.59-1.39 7.1a455.32 455.32 0 01-52.82 3.1c-10.59 0-21.52-3-23.55-12.44a52.41 52.41 0 01-.49-16.51z"></path>
+          <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M432 192h16M64 192h16M78 211s46.35-12 178-12 178 12 178 12"></path>
+        </g>
+      </svg>
+      <svg class="note_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="note_line">
+          <path d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+          <path d="M459.94 53.25a16.06 16.06 0 00-23.22-.56L424.35 65a8 8 0 000 11.31l11.34 11.32a8 8 0 0011.34 0l12.06-12c6.1-6.09 6.67-16.01.85-22.38zM399.34 90L218.82 270.2a9 9 0 00-2.31 3.93L208.16 299a3.91 3.91 0 004.86 4.86l24.85-8.35a9 9 0 003.93-2.31L422 112.66a9 9 0 000-12.66l-9.95-10a9 9 0 00-12.71 0z"></path>
+        </g>
+      </svg>
+      <svg class="document_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="document_line">
+          <path d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z" fill="none" stroke-linejoin="round" stroke-width="32"></path>
+          <path d="M256 56v120a32 32 0 0032 32h120M176 288h160M176 368h160" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+        </g>
+      </svg>
+      <svg class="gear_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="gear_line">
+          <path d="M456.7 242.27l-26.08-4.2a8 8 0 01-6.6-6.82c-.5-3.2-1-6.41-1.7-9.51a8.08 8.08 0 013.9-8.62l23.09-12.82a8.05 8.05 0 003.9-9.92l-4-11a7.94 7.94 0 00-9.4-5l-25.89 5a8 8 0 01-8.59-4.11q-2.25-4.2-4.8-8.41a8.16 8.16 0 01.7-9.52l17.29-19.94a8 8 0 00.3-10.62l-7.49-9a7.88 7.88 0 00-10.5-1.51l-22.69 13.63a8 8 0 01-9.39-.9c-2.4-2.11-4.9-4.21-7.4-6.22a8 8 0 01-2.5-9.11l9.4-24.75A8 8 0 00365 78.77l-10.2-5.91a8 8 0 00-10.39 2.21l-16.64 20.84a7.15 7.15 0 01-8.5 2.5s-5.6-2.3-9.8-3.71A8 8 0 01304 87l.4-26.45a8.07 8.07 0 00-6.6-8.42l-11.59-2a8.07 8.07 0 00-9.1 5.61l-8.6 25.05a8 8 0 01-7.79 5.41h-9.8a8.07 8.07 0 01-7.79-5.41l-8.6-25.05a8.07 8.07 0 00-9.1-5.61l-11.59 2a8.07 8.07 0 00-6.6 8.42l.4 26.45a8 8 0 01-5.49 7.71c-2.3.9-7.3 2.81-9.7 3.71-2.8 1-6.1.2-8.8-2.91l-16.51-20.34A8 8 0 00156.75 73l-10.2 5.91a7.94 7.94 0 00-3.3 10.09l9.4 24.75a8.06 8.06 0 01-2.5 9.11c-2.5 2-5 4.11-7.4 6.22a8 8 0 01-9.39.9L111 116.14a8 8 0 00-10.5 1.51l-7.49 9a8 8 0 00.3 10.62l17.29 19.94a8 8 0 01.7 9.52q-2.55 4-4.8 8.41a8.11 8.11 0 01-8.59 4.11l-25.89-5a8 8 0 00-9.4 5l-4 11a8.05 8.05 0 003.9 9.92L85.58 213a7.94 7.94 0 013.9 8.62c-.6 3.2-1.2 6.31-1.7 9.51a8.08 8.08 0 01-6.6 6.82l-26.08 4.2a8.09 8.09 0 00-7.1 7.92v11.72a7.86 7.86 0 007.1 7.92l26.08 4.2a8 8 0 016.6 6.82c.5 3.2 1 6.41 1.7 9.51a8.08 8.08 0 01-3.9 8.62L62.49 311.7a8.05 8.05 0 00-3.9 9.92l4 11a7.94 7.94 0 009.4 5l25.89-5a8 8 0 018.59 4.11q2.25 4.2 4.8 8.41a8.16 8.16 0 01-.7 9.52l-17.29 19.96a8 8 0 00-.3 10.62l7.49 9a7.88 7.88 0 0010.5 1.51l22.69-13.63a8 8 0 019.39.9c2.4 2.11 4.9 4.21 7.4 6.22a8 8 0 012.5 9.11l-9.4 24.75a8 8 0 003.3 10.12l10.2 5.91a8 8 0 0010.39-2.21l16.79-20.64c2.1-2.6 5.5-3.7 8.2-2.6 3.4 1.4 5.7 2.2 9.9 3.61a8 8 0 015.49 7.71l-.4 26.45a8.07 8.07 0 006.6 8.42l11.59 2a8.07 8.07 0 009.1-5.61l8.6-25a8 8 0 017.79-5.41h9.8a8.07 8.07 0 017.79 5.41l8.6 25a8.07 8.07 0 009.1 5.61l11.59-2a8.07 8.07 0 006.6-8.42l-.4-26.45a8 8 0 015.49-7.71c4.2-1.41 7-2.51 9.6-3.51s5.8-1 8.3 2.1l17 20.94A8 8 0 00355 439l10.2-5.91a7.93 7.93 0 003.3-10.12l-9.4-24.75a8.08 8.08 0 012.5-9.12c2.5-2 5-4.1 7.4-6.21a8 8 0 019.39-.9L401 395.66a8 8 0 0010.5-1.51l7.49-9a8 8 0 00-.3-10.62l-17.29-19.94a8 8 0 01-.7-9.52q2.55-4.05 4.8-8.41a8.11 8.11 0 018.59-4.11l25.89 5a8 8 0 009.4-5l4-11a8.05 8.05 0 00-3.9-9.92l-23.09-12.82a7.94 7.94 0 01-3.9-8.62c.6-3.2 1.2-6.31 1.7-9.51a8.08 8.08 0 016.6-6.82l26.08-4.2a8.09 8.09 0 007.1-7.92V250a8.25 8.25 0 00-7.27-7.73zM256 112a143.82 143.82 0 01139.38 108.12A16 16 0 01379.85 240H274.61a16 16 0 01-13.91-8.09l-52.1-91.71a16 16 0 019.85-23.39A146.94 146.94 0 01256 112zM112 256a144 144 0 0143.65-103.41 16 16 0 0125.17 3.47L233.06 248a16 16 0 010 15.87l-52.67 91.7a16 16 0 01-25.18 3.36A143.94 143.94 0 01112 256zm144 144a146.9 146.9 0 01-38.19-4.95 16 16 0 01-9.76-23.44l52.58-91.55a16 16 0 0113.88-8H379.9a16 16 0 0115.52 19.88A143.84 143.84 0 01256 400z"></path>
+        </g>
+      </svg>
+      <svg class="list_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="list_line">
+          <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M160 144h288M160 256h288M160 368h288"></path>
+          <circle cx="80" cy="144" r="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></circle>
+          <circle cx="80" cy="256" r="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></circle>
+          <circle cx="80" cy="368" r="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></circle>
+        </g>
+      </svg>
+      <svg class="search_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="search_line">
+          <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke-miterlimit="10" stroke-width="32"></path>
+          <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
+        </g>
+      </svg>
+    </div>
+    <div class="search-variants color-block">
+      <div class="color-block color-cover"></div>
+      <div class="center">
+        <h3>Варианты подбора и заказа запчастей на сайте</h3>
+        <div class="flex-block search-variants-list">
+          <div class="search-variants__item" style="--i:1;"> 
+            <div class="search-variants__content"><span class="search-variants__number color-border">1</span>
+              <div class="search-variants__title color-block">У Вас <span class="color-light">нет времени</span> на поиск</div>
+              <div class="search-variants__list">
+                <div class="search-variants__list_item flex-block"><span>   
+                    <svg class="document_line custom-stroke ionicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#document_line"></use>
+                    </svg></span>
+                      <p><b>Оставьте заявку</b><i>Заполнить форму заявки на подбор</i></p>
+                </div>
+                <div class="search-variants__list_item flex-block"><span>   
+                    <svg class="search_line custom-stroke ionicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#search_line"></use>
+                    </svg></span>
+                      <p><b>Обработка заявки</b><i>Специалист подбирает оптимальные варианты</i></p>
+                </div>
+                <div class="search-variants__list_item flex-block"><span>   
+                    <svg class="phone_line custom-stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#phone_line"></use>
+                    </svg></span>
+                      <p><b>Получение предложения</b><i>Специалист озвучивает предложение по телефону</i></p>
+                </div>
+                <div class="search-variants__list_item flex-block"><span>   
+                    <svg class="note_line custom-stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#note_line"></use>
+                    </svg></span>
+                      <p><b>Оформление заказа</b><i>Выбор способа передачи и оплаты заказа</i></p>
+                </div>
+              </div>
+              <div class="search-variants__button"><a class="show-order-form" href="#"><span>Оставить заявку<b id="blink"></b></span></a></div>
+            </div>
+            <div class="search-variants__form color-block">
+              <form action="#"><span class="close-order-form">&times;</span>
+                <p>Оставить заявку</p>
+                <div class="form-item">
+                  <label>Номер телефона  *</label>
+                  <input type="text"/>
+                </div>
+                <div class="form-item">
+                  <label>Какие запчасти нужны  *</label>
+                  <textarea placeholder="MAN TGA 24.480 2007 год фильтр воздушный, фильтр топливный, колодки тормозные передние"></textarea>
+                </div>
+                <div class="form-item">
+                  <label class="checkbox-label">
+                    <input type="checkbox"/><span>Согласие на обработку персональных данных</span>
+                  </label>
+                </div>
+                <div class="button-container">
+                  <button class="button_big">Отправить</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="search-variants__item" style="--i:2;">
+            <div class="search-variants__content">
+              <div class="search-variants__number color-border">2</div>
+              <div class="search-variants__title color-block"><span class="color-light">Самостоятельный</span> подбор запчастей</div>
+              <div class="search-variants__list">
+                <div class="search-variants__list_item flex-block"><span>
+                    <svg class="list_line custom-stroke ionicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#list_line"></use>
+                    </svg></span>
+                      <p><b>Переход в каталог</b><i>Воспользоваться каталогом подбора запчастей</i></p>
+                </div>
+                <div class="search-variants__list_item flex-block"><span>
+                    <svg class="car_line custom-stroke ionicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#car_line"></use>
+                    </svg></span>
+                      <p><b>Выбор автомобиля</b><i>Выбрать марку, модель и модификацию</i></p>
+                </div>
+                <div class="search-variants__list_item flex-block"><span>
+                    <svg class="gear_line custom-stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#gear_line"></use>
+                    </svg></span>
+                      <p><b>Подбор запчасти</b><i>Выбрать нужные детали</i></p>
+                </div>
+                <div class="search-variants__list_item flex-block"><span>   
+                    <svg class="note_line custom-stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <use x="0" y="0" xlink:href="#note_line"></use>
+                    </svg></span>
+                      <p><b>Оформление заказа</b><i>Выбор способа передачи и оплаты заказа</i></p>
+                </div>
+              </div>
+              <div class="search-variants__button"><a href="#"><span>Перейти в каталог</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-variants__slogan color-block">
+      <div class="center">
+        <p>Мы работаем для<span class="color-light">Вас!</span></p>
+      </div>
+    </div>
+    <div class="map__block">
+      <div class="map__container"><img src="img/map.jpg"></div>
+      <div class="center">
+        <div class="map__contacts">
+          <p class="color-text">Как к нам добраться</p>
+          <div class="phone"><a href="tel:+79201236578">+7 920  123  65 78</a><a href="tel:+79201236578">+7 920  123  65 78</a></div>
+          <div class="geo">г.Москва, <br />ул.Строительная, <br />строение 4, офис 15</div>
+          <div class="socials"><a class="wa" href="#!">
+              <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <use x="0" y="0" xlink:href="#wa_line"></use>
+              </svg></a><a class="viber" href="#!">
+              <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <use x="0" y="0" xlink:href="#viber_line"></use>
+              </svg></a><a class="tg" href="#!">
+              <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <use x="0" y="0" xlink:href="#telegram_line"></use>
+              </svg></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-screen color-block">
+      <div class="center">    
+        <div class="footer__content flex-block">
+          <div class="footer__copy_right"><span>&copy; 2022</span><b>Груззап Курьер</b></div>
+          <div class="footer__content flex-block">
+            <div class="footer__phone"><a href="tel:+79201236578">+7 920  123  65 78</a><a href="tel:+79201236578">+7 920  123  65 78</a></div>
+            <div class="footer__mail"><a href="mailto:info@mail.com">info@mail.com</a></div>
+            <div class="socials"><a class="wa" href="#!">
+                <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <use x="0" y="0" xlink:href="#wa_line"></use>
+                </svg></a><a class="viber" href="#!">
+                <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <use x="0" y="0" xlink:href="#viber_line"></use>
+                </svg></a><a class="tg" href="#!">
+                <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <use x="0" y="0" xlink:href="#telegram_line"></use>
+                </svg></a></div>
+          </div>
+        </div>
+        <div class="footer__info">
+          <p>Сайт носит информационный характер и не является публичной офертой.</p>
+          <p>Информацию по стоимости услуг уточняйте у операторов по указанным на сайте номерам телефонов</p>
+        </div>
+      </div>
+    </div>
+    <div class="svg-images">
+      <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+        <g id="telegram_line">
+          <path d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"></path>
+        </g>
+      </svg>
+      <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="viber_line">
+          <path fill="none" stroke-linecap="round" stroke-width="10" d="M269 186a30 30 0 0 1 31 31m-38-58a64 64 0 0 1 64 67m-73-93a97 97 0 0 1 99 104"></path>
+          <path d="M288 274q10-13 24-4l36 27q8 10-7 28t-28 15q-53-12-102-60t-61-104q0-20 25-34 13-9 22 5l25 35q6 12-7 22c-39 15 51 112 73 70zM95 232c0 78 14 95 36 118 7 7 32 19 38 19v69c0 4 4 7 8 3l53-63 26 1c144 0 161-56 161-147S400 85 256 85 95 141 95 232zm-30 0c0-126 55-177 191-177s191 51 191 177-55 177-191 177c-10 0-18 0-32-2l-38 43c-7 8-28 11-28-13v-42c-6 0-20-6-39-18-19-13-54-44-54-145z"></path>
+        </g>
+      </svg>
+      <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <g id="wa_line">
+          <path d="M10.8,507.9c6.9-20.7,13.4-40.1,19.9-59.5c6.5-19.2,12.3-38.7,19.7-57.6c3.8-9.6,2.6-16.8-2.2-25.8   c-26.2-48.6-34-100.7-24.9-154.9c7.7-45.9,27.2-86.5,58.7-121C133.9,32.4,198.7,5.2,275.3,8.4c56.1,2.3,105.7,22.8,148,59.9   c39.4,34.5,65.1,77.4,77,128.4c9.6,41.1,8.5,82-3.3,122.5c-15,51.3-43.7,93.6-86.4,125.8c-59.3,44.8-125.8,58.7-198.3,44.6   c-21.8-4.2-42.6-12-62.2-22.6c-3.2-1.7-5.9-2.1-9.4-0.9c-37.2,12-74.5,23.9-111.7,35.8C23.4,503.7,17.7,505.6,10.8,507.9z    M74.1,445.2c2-0.5,2.9-0.7,3.8-1c23.3-7.4,46.6-14.9,70-22.1c2.2-0.7,5.2-0.1,7.3,0.9c10.1,5,19.8,11,30.2,15.4   c42.8,18.1,86.9,21,131.5,8.6c53.2-14.9,94-46.6,121.9-94.5c23.9-41,32.1-85.3,24.7-131.9c-9.4-59.3-39.8-105.9-90.1-139   C329.8,53,281.8,43.3,230.6,51.4c-44.1,7-81.8,27.1-112.9,59.3c-26.7,27.6-44.6,60.2-52.4,97.7c-11.1,53.7-2.9,104.5,26.9,150.8   c6,9.3,5.8,16.4,2.2,25.9C87.1,404.6,81,424.5,74.1,445.2z"></path>
+          <path d="M389.3,321.8c-0.3,19.3-9.4,34-27.8,43.2c-18.1,9-36.5,11.3-55.4,3.9c-17-6.7-34.2-13.2-50.6-21.3   c-21.6-10.7-39.3-26.7-55.5-44.4c-17.9-19.6-33.1-41.4-45.6-64.7c-8.9-16.5-14.3-34-12.4-53.2c2-20.4,11.5-36.7,27.5-49   c3.2-2.4,8-3.5,12.1-3.9c5.3-0.4,10.6,0.4,15.9,0.8c4.4,0.4,6.8,3.5,8.3,7.1c3.9,9.6,7.4,19.2,11.1,28.9c2.5,6.5,4.4,13.3,7.4,19.6   c3.7,7.8,1.4,14.3-3.4,20.3c-4.1,5.1-8.4,10-13.1,14.4c-3.9,3.7-4.6,7.5-2,12c11.5,20.5,25.5,38.9,44,53.8   c12.2,9.8,25.7,17.1,39.7,23.9c4.1,2,8.1,1.7,11.3-2c6.9-7.9,13.9-15.7,20.7-23.7c4.4-5.1,6.6-6.1,12.5-3.1   c17.1,8.6,34,17.5,51,26.4C389,313,390,316.6,389.3,321.8z"></path>
+        </g>
+      </svg>
+    </div>
+    <div><a href="inner.html">Inner page</a></div>
+  </body>
+</html>
